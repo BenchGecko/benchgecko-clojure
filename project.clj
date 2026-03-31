@@ -9,4 +9,5 @@
   :source-paths ["src"]
   :deploy-repositories [["clojars" {:url "https://repo.clojars.org"
                                      :username :env/clojars_username
-                                     :password :env/clojars_password}]])
+                                     :password :env/clojars_password
+                                     :sign-releases false}]])
